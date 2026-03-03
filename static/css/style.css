@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-card {
+    border: none;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.total-calories {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #1f4037;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.list-group-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #1f4037, #99f2c8);
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-danger {
+    border-radius: 20px;
+}
+
+.form-control, .form-select {
+    border-radius: 12px;
+}
